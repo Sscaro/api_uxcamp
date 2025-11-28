@@ -1,0 +1,15 @@
+filters =  {"attribute":"event_name","operator":"in","value":["addToCart"]}
+
+{"attribute":"event_uploadedon","operator":"between_dates","value":{"lower":"2025-07-01T05:00:00Z","upper":"2025-08-01T08:00:00Z"}}
+
+
+filters = [{
+        {
+           'attribute': 'event_name',
+           'operator': 'in',
+           'value':"value":["addToCart"]
+       }:
+       {
+            'attribute': 'event_uploadedon',
+            'operator': 'between_dates',
+            "value":{"lower":"2025-07-01T05:00:00Z","upper":"2025-08-01T08:00:00Z"}}}]
